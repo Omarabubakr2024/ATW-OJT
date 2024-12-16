@@ -131,4 +131,18 @@
    ```
 ![alt text](<Screenshot from 2024-12-16 06-40-34.png>)
 
-
+Networking Basics
+1. IP Address
+Definition: An IP address (Internet Protocol address) is a unique identifier assigned to every device on a network, allowing devices to communicate with each other.
+Purpose: It helps route data between devices on the internet or within a local network.
+2. MAC Address
+Definition: A MAC address (Media Access Control address) is a unique identifier assigned to a network interface.
+Purpose: It allows devices to identify each other on a local network.
+Difference: Unlike an IP address, which is used for routing between networks, a MAC address is used for local network communication and is fixed to the device.
+3. Switches, Routers, and Routing Protocols
+Switches: Devices that connect multiple devices within a local network, forwarding data based on MAC addresses.
+Routers: Devices that route data between different networks based on IP addresses.
+Routing Protocols: Protocols that determine the best paths for data to travel between networks (e.g., RIP, OSPF, BGP).
+4. Remote Connection to Cloud Instance (Using SSH)
+Ensure SSH is enabled on your cloud instance.
+using this comand : ssh -i "omar1.pem" ubuntu@ec2-98-84-133-213.compute-1.amazonaws.com 
