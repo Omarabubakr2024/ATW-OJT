@@ -145,5 +145,10 @@ Switches: Devices that connect multiple devices within a local network, forwardi
 Routers: Devices that route data between different networks based on IP addresses.
 Routing Protocols: Protocols that determine the best paths for data to travel between networks (e.g., RIP, OSPF, BGP).
 4. Remote Connection to Cloud Instance (Using SSH)
-Ensure SSH is enabled on your cloud instance.
-using this comand : ssh -i "omar1.pem" ubuntu@ec2-98-84-133-213.compute-1.amazonaws.com 
+
+ - Ensure SSH is enabled on your cloud instance. You can do this by configuring your EC2 security group to allow inbound traffic on port 22 (SSH).
+
+ - Connect via SSH using the following command:
+   ```bash
+   ssh -i "path/to/your-key.pem" ubuntu@<your-ec2-ip>
+
