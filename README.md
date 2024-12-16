@@ -1,5 +1,5 @@
 # LAMP Stack Setup on AWS EC2 Instance
- ##GitHub repository link: https://github.com/omarabubakr2021/ATW-OJT
+## GitHub repository link: https://github.com/omarabubakr2021/ATW-OJT
  
 ## Steps
 
