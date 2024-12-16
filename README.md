@@ -1,5 +1,6 @@
 # LAMP Stack Setup on AWS EC2 Instance
-
+ ##GitHub repository link: https://github.com/omarabubakr2021/ATW-OJT
+ 
 ## Steps
 
 ### **1. Create an Ubuntu EC2 Instance**
@@ -131,7 +132,7 @@
    ```
 ![alt text](<Screenshot from 2024-12-16 06-40-34.png>)
 
-Networking Basics
+### **9. Networking Basics**
 1. IP Address
 Definition: An IP address (Internet Protocol address) is a unique identifier assigned to every device on a network, allowing devices to communicate with each other.
 Purpose: It helps route data between devices on the internet or within a local network.
