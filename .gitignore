@@ -1,0 +1,38 @@
+# Ignore the MySQL configuration file (if exists)
+/var/www/html/db_config.php
+
+# Ignore sensitive database credentials (create a db_config.php file or similar for sensitive data)
+/var/www/html/.env
+/var/www/html/config/db_config.php
+
+# Ignore the system-specific files that are not relevant
+.DS_Store
+Thumbs.db
+
+# Ignore the Git directory itself
+.git/
+
+# Ignore the node_modules directory (if you're using Node.js in your project)
+/node_modules/
+
+# Ignore logs
+/var/log/apache2/*.log
+/var/log/mysql/*.log
+
+# Ignore temporary files
+*.swp
+*.bak
+
+# Ignore backup files
+*.bak
+*.tmp
+
+# Ignore SSL certificate files (Do not commit SSL keys and certificates to GitHub)
+/etc/letsencrypt/
+
+# Ignore compiled PHP files (optional if you want to ignore them)
+*.phar
+
+# Ignore the Git commit history files (optional)
+.gitmodules
+
